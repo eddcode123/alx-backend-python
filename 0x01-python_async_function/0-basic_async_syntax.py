@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """coroutine that delays return for x seconds
-the returns the seconds it delayed
+then returns the seconds it delayed
 """
 
 import asyncio
