@@ -7,7 +7,6 @@ delayed seconds
 import asyncio
 import random
 
-
 # import the function wait_random
 wait_random = __import__('0-basic_async_syntax').wait_random
 
@@ -18,6 +17,5 @@ async def wait_n(n, max_delay) -> list[float]:
     the delayed seconds from each
     wait_delay call
     """
-    task = [wait_random(max_delay) for _ in range(n)]
-    delays = await asyncio.gather(*task)
-    return delays
+    tasks = [asyncio.create_task(wait_random(max_delay)) for _ in range(n)]
+    return [await task for task in asyncio.as_completed(tasks)]
