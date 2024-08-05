@@ -5,13 +5,13 @@ delayed seconds
 """
 
 import asyncio
-import random
+from typing import List
 
 # import the function wait_random
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n, max_delay) -> list[float]:
+async def wait_n(n, max_delay) -> List[float]:
     """ Call wait_delay n times with max_delay as
     its argument and return a list of
     the delayed seconds from each
