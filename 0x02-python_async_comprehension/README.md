@@ -1,6 +1,7 @@
 0x02. Python - Async Comprehension
 ==================================
 
+![Meme async imaage](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/ee85b9f67c384e29525b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240806%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240806T085634Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=07a98f7394e9a801e895c4d43940a87a0186f428410f4bdd9c21a4a8c043db13)
 
 Resources
 ---------
