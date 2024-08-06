@@ -5,12 +5,16 @@ random value between 0, 10
 
 import asyncio
 import random
+from typing import Generator
 
-
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]:
     """ this corourine loops 10 times waiting 1 second
     after each iteration then yeilds a random number
     between 0 and 10
+    Arguments:
+        no arguments
+    Returns:
+        nothing
     """
     for _ in range(10):
         await asyncio.sleep(1)
