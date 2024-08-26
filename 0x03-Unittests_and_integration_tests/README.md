@@ -3,7 +3,6 @@
 
 By
 
-- Dev Nderitu
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/1/f088970b450e82c881ea.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220718T231828Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=76183ce9175e2e6bbf3665a123b4fda4ec8cd1629f051056a04ef04235ea584b)
 
